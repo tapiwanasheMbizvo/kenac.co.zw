@@ -1,0 +1,11 @@
+IndexIgnore *
+
+RewriteEngine On
+
+RewriteRule includes - [F]
+#ErrorDocument 404 https://www.wesecure.africa/404.html
+
+RewriteRule ^index$ index.php [L]
+RewriteRule ^kenac-software-services$ services.php [L]
+RewriteRule ^kenac-sales-servcices$ sales.php [L]
+RewriteRule ^kenac-technical-servcices$ services.php [L]

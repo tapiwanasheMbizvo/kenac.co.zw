@@ -50,88 +50,11 @@
     </div>
    
     
-    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
-      <div class="container">
-        <div class="row align-items-center">
-          
-          <div class="col-6 col-xl-2">
-            <h1 class="mb-0 site-logo"><a href="index.php" class="h2 mb-0">Kenac <span class="text-primary">.</span> </a></h1>
-          </div>
+<?php require_once "sections/header.html" ?>
 
-          <div class="col-12 col-md-10 d-none d-xl-block">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li><a href="#home-section" class="nav-link">Home</a></li>
-                <li class="">
-                  <a href="#about-section" class="nav-link">About Us</a>
-                </li>
-                <li class="has-children">
-                  <a href="#about-section" class="nav-link">Products & Services</a>
-                  <ul class="dropdown">
-                    <li class="has-children">
-                      <a href="#">Services</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Warranty Support</a></li>
-                        <li><a href="#">Managed Services</a></li>
-                        <li><a href="#">Backup Services</a></li>
-                        <li><a href="#">Service Level Agreements</a></li>
-                        <li><a href="#">Printers</a></li>
-                        <li><a href="#">Installations & Repairs</a></li>
-                      </ul>
-                    </li>
-
-                    <li class="has-children">
-                      <a href="#">Software</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Service Level Agreements</a></li>
-                        <li><a href="#">Cloud Services</a></li>
-
-                      </ul>
-                    </li>
-
-                    <li class="has-children">
-                      <a href="#">Advisory Services</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Trainings</a></li>
-
-                      </ul>
-                    </li>
-
-                    <li class="has-children">
-                      <a href="#">Sales</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Servers</a></li>
-                        <li><a href="#">Storage</a></li>
-                        <li><a href="#">Laptops</a></li>
-                        <li><a href="#">...more</a></li>
-
-                      </ul>
-                    </li>
-
-                  </ul>
-                </li>
-                <li><a href="#contact-section" class="nav-link">Contact</a></li>
-                <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
-                <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
-                <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>
-              </ul>
-
-            </nav>
-          </div>
-
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
-
-        </div>
-      </div>
-      
-    </header>
-
-  
      
-    <div class="site-blocks-cover" style=" background-color: #08457E" data-aos="fade" id="home-section">
+    <div class="site-blocks-cover" style=" background-color: #000080;" data-aos="fade" id="home-section">
 
       <div class="container">
         <div class="row align-items-lg-center" >
@@ -378,7 +301,7 @@
 
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>John Smith</p>
+                <p>Econet Wireless </p>
               </figure>
             </div>
           </div>
